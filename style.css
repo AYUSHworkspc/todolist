@@ -1,0 +1,73 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: greenyellow;
+}
+.container{
+border:none;
+background-color: rgb(0, 26, 255);
+border-radius: 15px;
+height: auto;
+width: 30vw;
+box-shadow: 5px 6px 7px black ;
+
+
+    
+}
+.container ul{
+background-color:aqua;
+padding-left: 25px;
+font-weight: 900;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+li{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.header{
+    text-align: center;
+    padding: 25px;
+    font: 15px;
+    background-color:whitesmoke;
+    border-radius: 15px;
+    border-bottom: 2px;
+
+}
+.addTask{
+display: flex;
+justify-content: space-evenly;
+}
+.addTask input{
+    height: 8vh;
+    background-color: lightsalmon;
+    border-radius: 25px;
+    padding: 10px;
+
+}
+.addTask button{
+    border-radius: 50px;
+    background-color: orange;
+    border: solid black 2px;
+    padding: 5px;
+    width: 75px;
+}
+.addTask button:hover{
+    background-color: violet;
+    border: 10px double black ;
+    box-sizing: 2px 3px 4px;
+
+}
